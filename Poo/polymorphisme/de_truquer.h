@@ -8,5 +8,7 @@ int valeur;
 public:
 de_truquer(int);
 /* virtual */int lancer();
+~de_truquer();
 };
+
 #endif

@@ -5,3 +5,6 @@ std::default_random_engine gen;
 int de::lancer(){
     return dist(gen);
 }
+de::~de(){
+    std::cout<<"destruction du de";
+}
